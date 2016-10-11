@@ -1,0 +1,27 @@
+
+short v=0;
+byte a=1;
+byte b=128;
+System.out.println(((v^a)<<8) + (b>>1)   );
+
+byte a=0;
+byte b=33;
+byte c=-1;
+
+System.out.println((char) c);
+
+for (int i = 7; i >= 0; i--) {  
+    System.out.print( (byte)(a & 1));  
+    a = (byte) (a >> 1);  
+}
+System.out.println(" ");
+for (int i = 7; i >= 0; i--) {  
+    System.out.print( (byte)(b & 1));  
+    b = (byte) (b >> 1);  
+}  
+System.out.println(" ");
+for (int i = 7; i >= 0; i--) {  
+    System.out.print( (byte)(c & 1));  
+    c = (byte) (c >> 1);  
+}
+System.out.println(" ");
